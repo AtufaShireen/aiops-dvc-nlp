@@ -11,7 +11,11 @@ Extracting data from aws s3 bucket to required folder.
 
 ### STAGE 02- Prepare Data
 1. Parsing the raw data(from xml tags).
-2. Featurizing the data into vector format.
+
+### STAGE 03- Featurize
+1. Featurize training features.
+2. Featurize label feature into multilabel.
+3. Featurizing the data into vector format.
 
 ### STEP 03- Train Model
 1. Get preprocessed data.
